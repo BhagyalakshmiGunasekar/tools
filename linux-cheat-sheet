@@ -1,0 +1,15 @@
+
+# To set kubectl commands for specific namespace
+kubectl config set-context --current --namespace=my-namespace
+
+
+# To delete only directories in a directory
+rm -r */
+
+# To display filename along with its contents
+for fn in *; do printf "\n$fn : "; cat "$fn"; done
+
+
+# To rename all files with its directory name
+for subdir in *; do mv $subdir/target.sql_results.tsv $subdir.txt; done;
+

@@ -1,3 +1,0 @@
-
-# To set kubectl commands for specific namespace
-kubectl config set-context --current --namespace=my-namespace
